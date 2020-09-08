@@ -2,16 +2,19 @@ import Amplify from 'aws-amplify';
 import config from './aws-exports';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import { ThemeProvider } from '@material-ui/core/styles';
 import App from './App';
+import theme from './theme';
 import * as serviceWorker from './serviceWorker';
 
 Amplify.configure(config);
 
 ReactDOM.render(
-  <React.StrictMode>
+  <ThemeProvider theme={theme}>
+    <CssBaseline />
     <App />
-  </React.StrictMode>,
+  </ThemeProvider>,
   document.getElementById('root')
 );
 
