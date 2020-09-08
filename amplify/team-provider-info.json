@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-ccp-dev-214810-authRole",
+            "UnauthRoleArn": "arn:aws:iam::232961751688:role/amplify-ccp-dev-214810-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::232961751688:role/amplify-ccp-dev-214810-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-ccp-dev-214810-deployment",
+            "UnauthRoleName": "amplify-ccp-dev-214810-unauthRole",
+            "StackName": "amplify-ccp-dev-214810",
+            "StackId": "arn:aws:cloudformation:eu-west-1:232961751688:stack/amplify-ccp-dev-214810/9c48b5e0-f214-11ea-8bff-06ac9a67575a",
+            "AmplifyAppId": "d3kihqaaq86ft7"
+        },
+        "categories": {
+            "auth": {
+                "ccp110557fd": {}
+            }
+        }
+    }
+}

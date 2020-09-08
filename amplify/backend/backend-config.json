@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"ccp110557fd": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
