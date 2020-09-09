@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="img/bcc-logo.png" width="150" />
     <p align="center">
       <a href="https://github.com/chess-centre/welcome/blob/master/CONTRIBUTING.md">
         <img alt="GitHub" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
