@@ -1,0 +1,6 @@
+.p-inputtext {
+    width: 250px;
+}
+.p-inputtext:disabled {
+    width: 250px;
+}
