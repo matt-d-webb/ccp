@@ -12,6 +12,7 @@ import Login from "./pages/Login";
 import Error from "./pages/Error";
 import NotFound from "./pages/NotFound";
 import Access from "./pages/Access";
+import { API, Si } from 'aws-amplify';
 
 class AppWrapper extends Component {
 	componentDidUpdate(prevProps) {
@@ -35,6 +36,11 @@ class AppWrapper extends Component {
 		}
 	}
 }
+
+// export default function AppWrapper() {
+
+
+// }
 
 // export function AppWrapper() {
 // 	return (
