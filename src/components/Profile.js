@@ -3,7 +3,8 @@ import { Panel } from 'primereact/components/panel/Panel';
 import { InputText } from 'primereact/inputtext';
 import { InputTextarea } from 'primereact/inputtextarea';
 import { InputMask } from 'primereact/inputmask';
-import { Auth, Storage } from "aws-amplify";
+import { Auth, Storage } from 'aws-amplify';
+// import { AmplifyS3ImagePicker } from '@aws-amplify/ui-react';
 import './Profile.css'
 
 import avatar from "./default-avatar.png";
@@ -113,6 +114,7 @@ export function Profile() {
                                     />
                                     <img src={image} className="profile-avatar" onClick={onOpenFileDialog} />
                                 </a>
+                                {/* <AmplifyS3ImagePicker /> */}
                                 <InputTextarea rows={5} cols={30} autoResize />
                                 <h4>ECF No.</h4>
                                 <InputText value={userInfo.ecf_number} />

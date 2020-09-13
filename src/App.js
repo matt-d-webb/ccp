@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { withAuthenticator } from '@aws-amplify/ui-react';
+import { withAuthenticator, AmplifySignIn } from '@aws-amplify/ui-react';
 import classNames from 'classnames';
 import { AppTopbar } from './AppTopbar';
 import { AppInlineProfile } from './AppInlineProfile';
@@ -310,7 +310,6 @@ class App extends Component {
 					</div>
 
 					<div className="layout-mask"></div>
-
 					<AppFooter />
 				</div>
 			</div>
