@@ -4,3 +4,8 @@
 .p-inputtext:disabled {
     width: 250px;
 }
+
+.profile-avatar {
+    width: 100px;
+    border-radius: 50%;
+}
